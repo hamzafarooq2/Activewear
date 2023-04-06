@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+</head>
+<link rel="stylesheet" href="cartpage.css">
+<script src="include.js"></script>
+
+<body>
+    <div w3-include-html="Header.html"></div>
+    <center>
+        <div id="sec1">
+            <h2>Cart Details</h2>
+            <fieldset style="width: 40%; margin: 50px;">
+                <legend>Product Details</legend>
+                <table cellpadding="10">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Increment</td>
+                            <td>Quantity</td>
+                            <td>Decrement</td>
+                            <td>Image</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td><button class="btn btn-success">+</button></td>
+                            <td>Quantity</td>
+                            <td><button class="btn btn-danger">-</button></td>
+                            <td>Image</td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td><button class="btn btn-success">+</button></td>
+                            <td>Quantity</td>
+                            <td><button class="btn btn-danger">-</button></td>
+                            <td>Image</td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td><button class="btn btn-success">+</button></td>
+                            <td>Quantity</td>
+                            <td><button class="btn btn-danger">-</button></td>
+                            <td>Image</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+
+            <fieldset style="width: 30%; margin: 50px;">
+                <legend>Payment Details</legend>
+                <table cellpadding="10">
+                    <thead>
+                        <tr>
+                            <td>Gross Payment</td>
+                            <td>Discount</td>
+                            <td>Net Payment</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <button class="btn btn-primary"><a href="signup.html">Enter Costumer Details</a></button>
+        </div>
+    </center>
+    <div w3-include-html="Footer.html"></div>
+    <script>
+        includeHTML();
+    </script>
+    
+</body>
+
+</html>

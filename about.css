@@ -1,0 +1,23 @@
+.action{
+    background-color:rgba(5, 19, 32, 0.781);
+    color: aliceblue;
+    height: 500px;
+}
+.action h1{
+    color: chocolate;
+}
+.action img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.action button{
+    background-color: chocolate;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.action button:hover{
+        background-color: black;
+        color: white;
+}

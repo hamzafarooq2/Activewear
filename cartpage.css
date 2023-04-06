@@ -1,0 +1,13 @@
+#sec1{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(pics/b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    font-weight: bold;
+    padding-top: 50px;
+}
+table,td,th{
+    border: 3px solid;
+}
