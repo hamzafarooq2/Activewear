@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/cartPage.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <title>Cart Page</title>
+    <script
+      src="https://kit.fontawesome.com/ab0bcd8ca8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">LOGO</div>
+      <i class="fa-solid fa-bars"></i>
+
+      <div class="nav-items" id="nav-items">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./shop.html">Products</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./cartPage.html">Cart</a></li>
+        </ul>
+
+        <form action="#">
+          <input type="search" class="search-data" placeholder="Search" />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <table>
+        <tr class="first-row">
+          <th>REMOVE</th>
+          <th>IMAGE</th>
+          <th>PRODUCT</th>
+          <th>PRICE</th>
+          <th>QUANTITY</th>
+          <th>SUBTOTAL</th>
+        </tr>
+        <tr class="main-row">
+          <td>
+            <a href="#"><i class="fa-solid fa-trash"></i></a>
+          </td>
+          <td class="pic"><img src="images/1ss.webp" ; /></td>
+          <td>T-Shirts</td>
+          <td>$118.19</td>
+          <td><input type="number" /></td>
+          <td>$118.19</td>
+          <td></td>
+        </tr>
+        <tr class="main-row hov">
+          <td>
+            <a href="#"><i class="fa-solid fa-trash"></i></a>
+          </td>
+          <td class="pic"><img src="images/2ss.webp" ; /></td>
+          <td>T-Shirts</td>
+          <td>$118.19</td>
+          <td><input type="number" /></td>
+          <td>$118.19</td>
+          <td></td>
+        </tr>
+        <tr class="main-row hov">
+          <td>
+            <a href="#"><i class="fa-solid fa-trash"></i></a>
+          </td>
+          <td class="pic"><img src="images/3ss.webp" ; /></td>
+          <td>T-Shirts</td>
+          <td>$118.19</td>
+          <td><input type="number" /></td>
+          <td>$118.19</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+
+    <script>
+      menu = document.querySelector(".fa-bars");
+      menu.onclick = function () {
+        navBarItems = document.querySelector(".nav-items");
+        navBarItems.classList.toggle("active");
+      };
+    </script>
+
+ 
+  </body>
+</html>
